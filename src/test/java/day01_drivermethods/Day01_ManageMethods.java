@@ -7,13 +7,13 @@ public class Day01_ManageMethods {
 
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
-
-        // Amazon soyfasina gidelim. https://www.amazon.com/
-        driver.get("https://www.amazon.com");
+        //Amazon soyfasina gidelim. https://www.amazon.com/
+        driver.get("https://www.amazon.com/");
 
         //Sayfanin konumunu ve boyutlarini yazdirin
-        System.out.println("Sayfanin Konumu :" + driver.manage().window().getPosition());
-        System.out.println("Sayfanin Boyutlari :" + driver.manage().window().getSize());
+        System.out.println("Sayfanın Konumu = "+driver.manage().window().getPosition());
+        System.out.println("Sayfanın Boyutları = "+driver.manage().window().getSize());
+
         //Sayfayi simge durumuna getirin
         driver.manage().window().minimize();
 
@@ -22,16 +22,16 @@ public class Day01_ManageMethods {
         driver.manage().window().maximize();
 
         //Sayfanin konumunu ve boyutlarini maximize durumunda yazdirin
-        System.out.println("Sayfanin Konumu :" + driver.manage().window().getPosition());
-        System.out.println("Sayfanin Boyutlari :" + driver.manage().window().getSize());
+        System.out.println("Sayfanın Konumu = "+driver.manage().window().getPosition());
+        System.out.println("Sayfanın Boyutları = "+driver.manage().window().getSize());
 
         //Sayfayi fullscreen yapin
         Thread.sleep(3000);
         driver.manage().window().fullscreen();
 
         //Sayfanin konumunu ve boyutlarini fullscreen durumunda yazdirin
-        System.out.println("Sayfanin Konumu :" + driver.manage().window().getPosition());
-        System.out.println("Sayfanin Boyutlari :" + driver.manage().window().getSize());
+        System.out.println("Sayfanın Konumu = "+driver.manage().window().getPosition());
+        System.out.println("Sayfanın Boyutları = "+driver.manage().window().getSize());
 
         //Sayfayi kapatin
         Thread.sleep(2000);

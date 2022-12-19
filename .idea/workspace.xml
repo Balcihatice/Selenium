@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f4af47d-b62b-4986-8f5d-3967172cd849" name="Changes" comment="">
+    <list default="true" id="1f4af47d-b62b-4986-8f5d-3967172cd849" name="Changes" comment="Homework">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C01_Examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C02_WebelementVeLocators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C03_LocatorsGetMethodlari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C04_ClassWork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Day01_ClassWork2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Day01_ClassWork2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Day01_DriverMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Day01_DriverMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Day01_ManageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Day01_ManageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Day01_ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_drivermethods/C02_ClassWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Day01_ClassWork2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_drivermethods/C05_ClassWork2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Day01_DriverMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_drivermethods/C01_DriverMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Day01_ManageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_drivermethods/C04_ManageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Day01_NavigateMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_drivermethods/C03_NavigateMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Selenium.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +66,13 @@
       <recent name="$PROJECT_DIR$/src/main/resource/Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day01_DriverMethods">
-    <configuration name="Day01_ClassWork2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_drivermethods.Day01_ClassWork2" />
+  <component name="RunManager" selected="Application.C04_ClassWork">
+    <configuration name="C01_Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_DriverMethods.C01_Examples" />
       <module name="NewSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01_drivermethods.*" />
+          <option name="PATTERN" value="day02_DriverMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day01_DriverMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_drivermethods.Day01_DriverMethods" />
+    <configuration name="C02_WebelementVeLocators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_DriverMethods.C02_WebelementVeLocators" />
       <module name="NewSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01_drivermethods.*" />
+          <option name="PATTERN" value="day02_DriverMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day01_ManageMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_drivermethods.Day01_ManageMethods" />
+    <configuration name="C03_LocatorsGetMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_DriverMethods.C03_LocatorsGetMethodlari" />
       <module name="NewSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01_drivermethods.*" />
+          <option name="PATTERN" value="day02_DriverMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day01_NavigateMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_drivermethods.Day01_NavigateMethod" />
+    <configuration name="C04_ClassWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_DriverMethods.C04_ClassWork" />
       <module name="NewSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01_drivermethods.*" />
+          <option name="PATTERN" value="day02_DriverMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.Selenium" />
+    <configuration name="C05_ClassWork2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01_drivermethods.C05_ClassWork2" />
       <module name="NewSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.*" />
+          <option name="PATTERN" value="day01_drivermethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day01_DriverMethods" />
-        <item itemvalue="Application.Selenium" />
-        <item itemvalue="Application.Day01_ManageMethods" />
-        <item itemvalue="Application.Day01_ClassWork2" />
-        <item itemvalue="Application.Day01_NavigateMethod" />
+        <item itemvalue="Application.C04_ClassWork" />
+        <item itemvalue="Application.C03_LocatorsGetMethodlari" />
+        <item itemvalue="Application.C02_WebelementVeLocators" />
+        <item itemvalue="Application.C01_Examples" />
+        <item itemvalue="Application.C05_ClassWork2" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +151,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671306463265</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework">
+      <created>1671397272141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671397272142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,5 +171,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework" />
   </component>
 </project>

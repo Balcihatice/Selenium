@@ -4,10 +4,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Selenium {
+    /*
+    En temel haliyle otomasyon yapmak icin,Clasimiza otomasyon icin gerekli olan webdriver`in yerini gostermemiz gerekir.
+    Bunu icin Java kutuphanesinden System.setPropertu() methodunun icine ilk olarak driver`i yazariz.
+    Ikinci olarak driverin fiziki yolunu kopyalariz
+     */
     public static void main(String[] args) {
-      //  System.setProperty("webdriver.chrome.driver","/Users/haticebalci/Desktop/Masaüstü - hatice MacBook Air/selenium/libraries/drivers/chromedriver");
+
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.amazon.com");
+
     }
   /*   Selenium da sik kullanacagimiz methodlar
 

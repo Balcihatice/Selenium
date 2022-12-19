@@ -5,11 +5,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Day01_ClassWork2 {
+public class C05_ClassWork2 {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));// Bu method sayfadaki her bir webelement için
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));// Bu method sayfadaki her bir web element için
         // max. bekleme süresini belirler
 
         //ChromeDriver kullanarak, facebook sayfasina gidin ve sayfa basliginin (title) “facebook”
@@ -29,6 +29,7 @@ public class Day01_ClassWork2 {
 
         //https://www.walmart.com/ sayfasina gidin.
         driver.get("https://www.walmart.com/");
+
         //Sayfa basliginin “Walmart.com” icerdigini dogrulayin.
         String actualWalmartTitle = driver.getTitle();
         String expectedWalmartTitle = "Walmart.com";

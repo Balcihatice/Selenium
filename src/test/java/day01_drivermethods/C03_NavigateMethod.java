@@ -3,11 +3,11 @@ package day01_drivermethods;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Day01_NavigateMethod {
+public class C03_NavigateMethod {
     //Amazon sayfasına gidelim
-    //Hepsiburada sayfasına gidelim
+    //techproeducation sayfasına gidelim
     //Tekrar amazon sayfasına dönelim
-    //Tekrar hepsiburada sayfasına gidelim
+    //Tekrar techproeducation sayfasına gidelim
     //Son sayfada sayfayı yenileyelim(refresh)
     //Ve sayfayı kapatalım
 
@@ -16,6 +16,7 @@ public class Day01_NavigateMethod {
 
         //Amazon sayfasına gidelim
         driver.navigate().to("https://amazon.com");
+        //driver.get ilede adrese gidip back ve forward methodlarini kullanabiliriz
 
         //techproeducation sayfasına gidelim
         Thread.sleep(3000);

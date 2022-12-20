@@ -36,7 +36,7 @@ public class C01_Examples {
         //Amazon sayfasının Url'inin https://www.amazon.com/ adresine eşit olduğunu test edelim
         String actualUrl = driver.getCurrentUrl();
         String expectedUrl ="https://www.amazon.com/";
-        if (actualUrl.contains(expectedUrl)){
+        if (actualUrl.equals(expectedUrl)){
             System.out.println("Url TESTI PASSED");
         }else System.out.println("Url TESTI FAILED");
 

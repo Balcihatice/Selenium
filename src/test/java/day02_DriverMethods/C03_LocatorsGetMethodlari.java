@@ -20,12 +20,13 @@ public class C03_LocatorsGetMethodlari {
         // Search bolumunu locate edip iphone kelimesini aratalim.
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone", Keys.ENTER);
 
-        // Arama sonuc yazisinda iphone yazisini locate edip konsola yazdiralim.
+        // Arama sonuç yazısında iphone yazısını locate edip konsola yazdıralım
         WebElement aramaSonucYazisi = driver.findElement(By.className("sg-col-inner"));
         System.out.println(aramaSonucYazisi.getText());
 
-        // Sayfayi kapatalim.
+        // Sayfayı kapatalım
         driver.close();
+
 
 
     }

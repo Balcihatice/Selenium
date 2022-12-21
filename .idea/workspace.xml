@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f4af47d-b62b-4986-8f5d-3967172cd849" name="Changes" comment="18/12/22">
-      <change afterPath="$PROJECT_DIR$/src/test/java/C05_GetWindowHandle.java" afterDir="false" />
+    <list default="true" id="1f4af47d-b62b-4986-8f5d-3967172cd849" name="Changes" comment="19/12/22">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day01_drivermethods/Homework3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day03_Xpath/C01_Xpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day03_Xpath/C02_CssSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04_Maven/C01_Tekrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04_Maven/C02_RelativeLocators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework/Test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C02_WebelementVeLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C02_WebelementVeLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C03_LocatorsGetMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C03_LocatorsGetMethodlari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C04_ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C04_ClassWork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,49 +65,79 @@
       <recent name="$PROJECT_DIR$/src/main/resource/Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C09_ManageMethodlari">
-    <configuration name="C05_GetWindowHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C05_GetWindowHandle" />
+  <component name="RunManager" selected="Application.C02_RelativeLocators">
+    <configuration name="C01_Tekrar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_Maven.C01_Tekrar" />
       <module name="NewSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04_Maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_Navigate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C06_Navigate" />
+    <configuration name="C01_Xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_Xpath.C01_Xpath" />
       <module name="NewSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03_Xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C07_ManageMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C07_ManageMethodlari" />
+    <configuration name="C02_CssSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_Xpath.C02_CssSelector" />
       <module name="NewSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03_Xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C08_ManageMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C08_ManageMethodlari" />
+    <configuration name="C02_RelativeLocators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_Maven.C02_RelativeLocators" />
       <module name="NewSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04_Maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C09_ManageMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C09_ManageMethodlari" />
+    <configuration name="C03_LocatorsGetMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_DriverMethods.C03_LocatorsGetMethodlari" />
       <module name="NewSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02_DriverMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C09_ManageMethodlari" />
-        <item itemvalue="Application.C08_ManageMethodlari" />
-        <item itemvalue="Application.C07_ManageMethodlari" />
-        <item itemvalue="Application.C06_Navigate" />
-        <item itemvalue="Application.C05_GetWindowHandle" />
+        <item itemvalue="Application.C02_RelativeLocators" />
+        <item itemvalue="Application.C01_Tekrar" />
+        <item itemvalue="Application.C02_CssSelector" />
+        <item itemvalue="Application.C01_Xpath" />
+        <item itemvalue="Application.C03_LocatorsGetMethodlari" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671483504542</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Selenium_DersNotlari">
+      <created>1671494932103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671494932103</updated>
+    </task>
+    <task id="LOCAL-00004" summary="19/12/22">
+      <created>1671497748824</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671497748825</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +195,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework" />
     <MESSAGE value="18/12/22" />
-    <option name="LAST_COMMIT_MESSAGE" value="18/12/22" />
+    <MESSAGE value="Selenium_DersNotlari" />
+    <MESSAGE value="19/12/22" />
+    <option name="LAST_COMMIT_MESSAGE" value="19/12/22" />
   </component>
 </project>

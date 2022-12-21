@@ -39,14 +39,6 @@ findElement(BY.id("attribute degeri")) seklinde yazariz.
         List <WebElement> linklerList = driver.findElements(By.tagName("a"));
         System.out.println("Link sayisi: " + linklerList.size());
 
-        //Burada linkleri yazdirabiliriz
-        for (WebElement w:linklerList) {
-            System.out.println(w.getText());
-        }
-
-
-
-
 
     }
 }

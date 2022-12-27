@@ -11,41 +11,42 @@ import java.util.Arrays;
 import java.util.List;
 
 public class C04_ClassWork {
-     /*
-        web sayfasına gidin. https://www.amazon.com/
-        Search(ara) “city bike”
-        Amazon'da görüntülenen ilgili sonuçların sayısını yazdırın
-        Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
-        */
-     public static void main(String[] args) {
+    /*
+       web sayfasına gidin. https://www.amazon.com/
+       Search(ara) “city bike”
+       Amazon'da görüntülenen ilgili sonuçların sayısını yazdırın
+       Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
+       */
+    public static void main(String[] args) {
 
-         WebDriver driver = new ChromeDriver();
-         driver.manage().window().maximize(); // Açılan browser'ı tam ekran yap
-         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize(); // Açılan browser'ı tam ekran yap
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
-         //web sayfasına gidin. https://www.amazon.com/
-         driver.get("https://www.amazon.com/");
+        //web sayfasına gidin. https://www.amazon.com/
+        driver.get("https://www.amazon.com/");
 
-         //Search(ara) “city bike”
-         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("city bike", Keys.ENTER);
+        //Search(ara) “city bike”
+        driver.findElement(By.id("twotabsearchtextbox")).sendKeys("city bike", Keys.ENTER);
 
-         //Amazon'da görüntülenen ilgili sonuçların sayısını yazdırın
-         List<WebElement> aramaSonucYazisi = (List<WebElement>) driver.findElements(By.className("sg-col-inner"));
-         System.out.println("Arama Sonuc Yazısı : "+aramaSonucYazisi.get(0).getText());
+        //Amazon'da görüntülenen ilgili sonuçların sayısını yazdırın
+        List<WebElement> aramaSonucYazisi = (List<WebElement>) driver.findElements(By.className("sg-col-inner"));
+        System.out.println("Arama Sonuc Yazısı : " + aramaSonucYazisi.get(0).getText());
 
-         // Arama sonuc sayısını konsola yazdırınız
-         String [] sonucSayisi = aramaSonucYazisi.get(0).getText().split(" ");
-         System.out.println("Sonuc Sayısı : "+ sonucSayisi[2]);
+        // Arama sonuc sayısını konsola yazdırınız
+        String[] sonucSayisi = aramaSonucYazisi.get(0).getText().split(" ");
+        System.out.println("Sonuc Sayısı : " + sonucSayisi[2]);
 
-         // Sonuc sayısını LAMBDA ile yazdırınız
-         Arrays.stream(aramaSonucYazisi.get(0).getText().split(" ")).limit(3).skip(2).forEach(System.out::println);
+        // Sonuc sayısını LAMBDA ile yazdırınız
+        Arrays.stream(aramaSonucYazisi.get(0).getText().split(" ")).limit(3).skip(2).forEach(System.out::println);
 
-         //Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
-         List<WebElement> ilkWE = (List<WebElement>) driver.findElements(By.className("s-image"));
+        //Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
+        List<WebElement> ilkWE = (List<WebElement>) driver.findElements(By.className("s-image"));
 
 
-         ilkWE.get(0).click();
+        ilkWE.get(0).click();
 
-     }
+        driver.close();
+    }
 
 }

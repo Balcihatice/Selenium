@@ -1,4 +1,4 @@
-package ders_notlari;
+package ders_Notlari01;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C13_WebElementMethodlari {
+public class  C13_WebElementMethodlari {
 
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();

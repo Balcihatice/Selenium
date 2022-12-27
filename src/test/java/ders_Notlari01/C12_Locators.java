@@ -1,4 +1,4 @@
-package ders_notlari;
+package ders_Notlari01;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

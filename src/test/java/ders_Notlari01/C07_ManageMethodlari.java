@@ -1,6 +1,5 @@
-package ders_notlari;
+package ders_Notlari01;
 
-import com.google.common.collect.TreeBasedTable;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
